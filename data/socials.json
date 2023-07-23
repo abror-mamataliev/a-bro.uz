@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Telegram",
+        "icon": "telegram",
+        "url": "https://t.me/abror_mamataliev"
+    },
+    {
+        "name": "LinkedIn",
+        "icon": "linkedin",
+        "url": "https://www.linkedin.com/in/abror-mamataliev/"
+    },
+    {
+        "name": "Twitter",
+        "icon": "twitter",
+        "url": "https://twitter.com/mamatalievabror"
+    },
+    {
+        "name": "Discord",
+        "icon": "discord",
+        "url": "https://discord.com/users/822861695318753310"
+    }
+]

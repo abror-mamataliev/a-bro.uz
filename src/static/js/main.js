@@ -1,10 +1,4 @@
-/**
-* Template Name: Personal - v4.10.0
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-(function() {
+(function () {
   "use strict";
 
   /**
@@ -45,9 +39,57 @@
   }
 
   /**
+   * Change the URL according to the current section
+   */
+  const changeURL = (section) => {
+    console.log(baseURL);
+    switch (section) {
+      case '#header': {
+        history.pushState({}, 'About', baseURL)
+        break
+      }
+      case '#about': {
+        history.pushState({}, 'About', `${baseURL}/about/`)
+        break
+      }
+      case '#resume': {
+        history.pushState({}, 'About', `${baseURL}/resume/`)
+        break
+      }
+      case '#services': {
+        history.pushState({}, 'About', `${baseURL}/services/`)
+        break
+      }
+      case '#portfolio': {
+        history.pushState({}, 'About', `${baseURL}/portfolio/`)
+        break
+      }
+      case '#contact': {
+        history.pushState({}, 'About', `${baseURL}/contact/`)
+        break
+      }
+    }
+  }
+
+  const resizeLogo = (section) => {
+    let logo = document.getElementById('logo')
+    if (section == '#header') {
+      logo.style.width = 'initial'
+    } else if ([
+      '#header',
+      '#about',
+      '#resume',
+      '#services',
+      '#portfolio'
+    ].includes(section)) {
+      logo.style.width = '50%'
+    }
+  }
+
+  /**
    * Mobile nav toggle
    */
-  on('click', '.mobile-nav-toggle', function(e) {
+  on('click', '.mobile-nav-toggle', function (e) {
     select('#navbar').classList.toggle('navbar-mobile')
     this.classList.toggle('bi-list')
     this.classList.toggle('bi-x')
@@ -56,10 +98,12 @@
   /**
    * Scrool with ofset on links with a class name .scrollto
    */
-  on('click', '#navbar .nav-link', function(e) {
+  on('click', '#navbar .nav-link', function (e) {
     let section = select(this.hash)
     if (section) {
       e.preventDefault()
+      changeURL(this.hash)
+      resizeLogo(this.hash)
 
       let navbar = select('#navbar')
       let header = select('#header')
@@ -89,7 +133,7 @@
 
       if (!header.classList.contains('header-top')) {
         header.classList.add('header-top')
-        setTimeout(function() {
+        setTimeout(function () {
           sections.forEach((item) => {
             item.classList.remove('section-show')
           })
@@ -106,6 +150,40 @@
       scrollto(this.hash)
     }
   }, true)
+
+  on('click', 'a:has(> #logo)', function (e) {
+    let header = document.querySelector(this.hash)
+    console.log(this);
+    console.log(header);
+    e.preventDefault()
+    changeURL(this.hash)
+    resizeLogo(this.hash)
+
+    let navbar = select('#navbar')
+    let sections = select('section', true)
+    let navlinks = select('#navbar .nav-link', true)
+
+    navlinks.forEach((item) => {
+      item.classList.remove('active')
+    })
+
+    this.classList.add('active')
+
+    if (navbar.classList.contains('navbar-mobile')) {
+      navbar.classList.remove('navbar-mobile')
+      let navbarToggle = select('.mobile-nav-toggle')
+      navbarToggle.classList.toggle('bi-list')
+      navbarToggle.classList.toggle('bi-x')
+    }
+
+    if (this.hash == '#header') {
+      header.classList.remove('header-top')
+      sections.forEach((item) => {
+        item.classList.remove('section-show')
+      })
+      return;
+    }
+  })
 
   /**
    * Activate/show sections on load with hash links
@@ -128,7 +206,7 @@
           }
         })
 
-        setTimeout(function() {
+        setTimeout(function () {
           initial_nav.classList.add('section-show')
         }, 350);
 
@@ -145,7 +223,7 @@
     new Waypoint({
       element: skilsContent,
       offset: '80%',
-      handler: function(direction) {
+      handler: function (direction) {
         let progress = select('.progress .progress-bar', true);
         progress.forEach((el) => {
           el.style.width = el.getAttribute('aria-valuenow') + '%'
@@ -196,9 +274,9 @@
 
       let portfolioFilters = select('#portfolio-flters li', true);
 
-      on('click', '#portfolio-flters li', function(e) {
+      on('click', '#portfolio-flters li', function (e) {
         e.preventDefault();
-        portfolioFilters.forEach(function(el) {
+        portfolioFilters.forEach(function (el) {
           el.classList.remove('filter-active');
         });
         this.classList.add('filter-active');

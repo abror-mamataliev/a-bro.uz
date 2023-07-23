@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Coding",
+        "icon": "code-fill",
+        "color": "#ff0000"
+    },
+    {
+        "name": "Database",
+        "icon": "database-fill",
+        "color": "#f0be35"
+    },
+    {
+        "name": "Ubuntu",
+        "icon": "ubuntu-fill",
+        "color": "#e95420"
+    },
+    {
+        "name": "Football",
+        "icon": "football-fill",
+        "color": "#00ff00"
+    },
+    {
+        "name": "Music",
+        "icon": "music-fill",
+        "color": "#0000ff"
+    },
+    {
+        "name": "Geography",
+        "icon": "music-fill",
+        "color": "#00aa00"
+    },
+    {
+        "name": "Teamwork",
+        "icon": "team-fill",
+        "color": "#3987e6"
+    },
+    {
+        "name": "Games",
+        "icon": "gamepad-fill",
+        "color": "#ffffff"
+    }
+]

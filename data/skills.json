@@ -1,0 +1,42 @@
+[
+    {
+        "name": "HTML",
+        "percent": 100
+    },
+    {
+        "name": "CSS",
+        "percent": 70
+    },
+    {
+        "name": "JavaScript",
+        "percent": 60
+    },
+    {
+        "name": "Python",
+        "percent": 100
+    },
+    {
+        "name": "SQL",
+        "percent": 100
+    },
+    {
+        "name": "Excel",
+        "percent": 100
+    },
+    {
+        "name": "QGIS",
+        "percent": 25
+    },
+    {
+        "name": "ArcGIS Pro",
+        "percent": 25
+    },
+    {
+        "name": "Maths",
+        "percent": 100
+    },
+    {
+        "name": "Physics",
+        "percent": 100
+    }
+]
