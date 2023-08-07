@@ -1,4 +1,5 @@
 from datetime import datetime
+from enum import Enum
 
 from src.utils.extensions import db
 
@@ -20,3 +21,19 @@ class BaseModel(ModelMixin):
 
     created_at = db.Column(db.DateTime, default=datetime.now)
     updated_at = db.Column(db.DateTime, default=datetime.now, onupdate=datetime.now)
+
+
+class LanguageEnum(Enum):
+
+    EN = "EN"
+    RU = "RU"
+    UZ = "UZ"
+    FR = "FR"
+    TR = "TR"
+
+
+class TranslationModel(BaseModel):
+
+    __abstract__ = True
+
+    language = db.Column(db.Enum(LanguageEnum))

@@ -1,0 +1,57 @@
+<section id="resume" class="resume{% if current_page == 'resume' %} section-show{% endif %}">
+    <div class="container">
+        <div class="section-title">
+            <h2>Resume</h2>
+            <p>Check My Resume</p>
+        </div>
+        <div class="row">
+            {% if education %}
+                <div class="col-lg-6">
+                    <h3 class="resume-title">Education</h3>
+                    {% for experience in education %}
+                        <div class="resume-item">
+                            <h4>{{ experience.title('en') }}</h4>
+                            <h5>{{ experience.start_date.strftime('%Y %b') }} - {% if experience.end_date is not none %}{{ experience.end_date.strftime('%Y %b') }}{% else %}Present{% endif %}</h5>
+                            <p>
+                                <em>{{ experience.place('en') }}</em>
+                            </p>
+                            {% if experience.info|length > 0 %}
+                                <ul>
+                                    {% for info in experience.info %}
+                                        <li>{{ info.content }}</li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+            {% if profession %}
+                <div class="col-lg-6">
+                    <h3 class="resume-title">Professional Experience</h3>
+                    {% for experience in profession %}
+                        <div class="resume-item">
+                            <h4>{{ experience.title('en') }}</h4>
+                            <h5>{{ experience.start_date.strftime('%Y %b') }} - {% if experience.end_date is not none %}{{ experience.end_date.strftime('%Y %b') }}{% else %}Present{% endif %}</h5>
+                            <p>
+                                <em>{{ experience.place('en') }}</em>
+                            </p>
+                            {% if experience.info|length > 0 %}
+                                <ul>
+                                    {% for info in experience.info %}
+                                        <li>{{ info.content }}</li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+        <div class="stats text-center mt-3">
+            <a href="http://www.uz/ru/res/visitor/index?id=46676" target="_top">
+                <img src="http://cnt0.www.uz/counter/collect?id=46676&amp;r=https%3A//a-bro.uz/projects&amp;pg=https%3A//a-bro.uz/&amp;c=Y&amp;j=N&amp;wh=1920x1080&amp;px=24&amp;js=1.3&amp;col=340F6E&amp;t=ffffff&amp;p=BD6F6F" width="88" height="31" border="0" alt="Топ рейтинг www.uz">
+            </a>
+        </div>
+    </div>
+</section>

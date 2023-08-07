@@ -42,7 +42,6 @@
    * Change the URL according to the current section
    */
   const changeURL = (section) => {
-    console.log(baseURL);
     switch (section) {
       case '#header': {
         history.pushState({}, 'About', baseURL)
@@ -69,6 +68,7 @@
         break
       }
     }
+    document.title = titles[section == '#header' ? 'home' : section.substring(1)]
   }
 
   const resizeLogo = (section) => {
@@ -104,6 +104,7 @@
       e.preventDefault()
       changeURL(this.hash)
       resizeLogo(this.hash)
+      // aboutPageLoader({ skillsUrl })
 
       let navbar = select('#navbar')
       let header = select('#header')
@@ -272,9 +273,9 @@
         layoutMode: 'fitRows'
       });
 
-      let portfolioFilters = select('#portfolio-flters li', true);
+      let portfolioFilters = select('#portfolio-filters li', true);
 
-      on('click', '#portfolio-flters li', function (e) {
+      on('click', '#portfolio-filters li', function (e) {
         e.preventDefault();
         portfolioFilters.forEach(function (el) {
           el.classList.remove('filter-active');
@@ -294,32 +295,6 @@
    */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
-  });
-
-  /**
-   * Initiate portfolio details lightbox 
-   */
-  const portfolioDetailsLightbox = GLightbox({
-    selector: '.portfolio-details-lightbox',
-    width: '90%',
-    height: '90vh'
-  });
-
-  /**
-   * Portfolio details slider
-   */
-  new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
   });
 
   /**

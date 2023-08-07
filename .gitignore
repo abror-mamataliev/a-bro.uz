@@ -1,8 +1,21 @@
-__pycache__/
 .idea/
 .vscode/
+
+__pycache__/
 env/
 
+database/*
+!database/.gitkeep
+
+src/uploads/*
+!src/uploads/**
+!src/uploads/.gitkeep
+
+src/uploads/**/*
+!src/uploads/**/**/
+!src/uploads/**/.gitkeep
+
+.DS_Store
 .env
 
 *.db

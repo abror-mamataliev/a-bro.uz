@@ -1,41 +1,73 @@
 [
     {
-        "name": "Coding",
+        "name": {
+            "en": "Coding",
+            "ru": "Писать код",
+            "uz": "Kod yozish"
+        },
         "icon": "code-fill",
         "color": "#ff0000"
     },
     {
-        "name": "Database",
+        "name": {
+            "en": "Databases",
+            "ru": "Базы данных",
+            "uz": "Ma'lumotlar bazalari"
+        },
         "icon": "database-fill",
         "color": "#f0be35"
     },
     {
-        "name": "Ubuntu",
+        "name": {
+            "en": "Ubuntu",
+            "ru": "Ubuntu",
+            "uz": "Ubuntu"
+        },
         "icon": "ubuntu-fill",
         "color": "#e95420"
     },
     {
-        "name": "Football",
+        "name": {
+            "en": "Football",
+            "ru": "Футбол",
+            "uz": "Futbol"
+        },
         "icon": "football-fill",
         "color": "#00ff00"
     },
     {
-        "name": "Music",
+        "name": {
+            "en": "Music",
+            "ru": "Музыка",
+            "uz": "Musiqa"
+        },
         "icon": "music-fill",
         "color": "#0000ff"
     },
     {
-        "name": "Geography",
+        "name": {
+            "en": "Geography",
+            "ru": "Писать код",
+            "uz": "Geografiya"
+        },
         "icon": "music-fill",
         "color": "#00aa00"
     },
     {
-        "name": "Teamwork",
+        "name": {
+            "en": "Teamwork",
+            "ru": "Писать код",
+            "uz": "Jamoaviy ish"
+        },
         "icon": "team-fill",
         "color": "#3987e6"
     },
     {
-        "name": "Games",
+        "name": {
+            "en": "Games",
+            "ru": "Писать код",
+            "uz": "O'yinlar"
+        },
         "icon": "gamepad-fill",
         "color": "#ffffff"
     }

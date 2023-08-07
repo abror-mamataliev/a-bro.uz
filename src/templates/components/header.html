@@ -1,0 +1,45 @@
+<header id="header"{% if current_page in ['about', 'resume', 'services', 'portfolio', 'contact'] %} class="header-top"{% endif %}>
+    <div class="container">
+        <a href="#header" class="mr-auto">
+            <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Logo" class="img-fluid" id="logo"{% if current_page in ['about', 'resume', 'services', 'portfolio', 'contact'] %} style="width: 50%"{% endif %}>
+        </a>
+        <h2>I'm a passionate <span>software engineer</span> from Tashkent</h2>
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li>
+                    <a class="nav-link{% if current_page == 'home' %} active{% endif %}" href="#header">Home</a>
+                </li>
+                <li>
+                    <a class="nav-link{% if current_page == 'about' %} active{% endif %}" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="nav-link{% if current_page == 'resume' %} active{% endif %}" href="#resume">Resume</a>
+                </li>
+                <li>
+                    <a class="nav-link{% if current_page == 'services' %} active{% endif %}" href="#services">Services</a>
+                </li>
+                <li>
+                    <a class="nav-link{% if current_page == 'portfolio' %} active{% endif %}" href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a class="nav-link{% if current_page == 'contact' %} active{% endif %}" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        {% if socials %}
+            <div class="social-links">
+                {% for social in socials %}
+                    <a href="{{ social.url }}" class="{{ social.icon }}" target="_blank">
+                        <i class="bi bi-{{ social.icon }}"></i>
+                    </a>
+                {% endfor %}
+            </div>
+        {% endif %}
+        <div class="stats">
+            <a href="http://www.uz/ru/res/visitor/index?id=46676" target="_top">
+                <img class="mb-3" src="http://cnt0.www.uz/counter/collect?id=46676&amp;r=https%3A//a-bro.uz/projects&amp;pg=https%3A//a-bro.uz/&amp;c=Y&amp;j=N&amp;wh=1920x1080&amp;px=24&amp;js=1.3&amp;col=340F6E&amp;t=ffffff&amp;p=BD6F6F" width="88" height="31" border="0" alt="Топ рейтинг www.uz">
+            </a>
+        </div>
+    </div>
+</header>

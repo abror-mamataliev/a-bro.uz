@@ -1,0 +1,100 @@
+[
+    {
+        "name": {
+            "en": "ORIENS Journal",
+            "ru": "ORIENS Journal",
+            "uz": "ORIENS Journal"
+        },
+        "description": {
+            "en": "The scientific journal “Oriental Renaissance: Innovative, Educational, Natural and Social Sciences” is an open journal. The main task of the journal is to highlight the achievements and prospects of world science and education in the process of modeling the “Third Renaissance”, topical problems and ways to solve them, as well as the history and stages of development of science and education. The aim of “Oriental Renaissance: Innovative, Educational, Natural and Social sciences” is to inform the scientific community about the research and innovation of experts and scientists in specific fields, to increase the interest of the younger generation in science and education, and to explain scientific concepts.",
+            "ru": "Научный журнал “Oriental Renaissance: Innovative, Educational, Natural and Social sciences” является открытым журналом. Основная задача журнала - освещать достижения и перспективы мировой науки и образования в процессе моделирования “Третьего Возрождения”, актуальные проблемы и пути их решения, а также историю и этапы развития науки и образования. Целью журнала “Oriental Renaissance: Innovative, Educational, Natural and Social sciences” является информирование научного сообщества об исследованиях и инновациях экспертов и ученых в конкретных областях, повышение интереса молодого поколения к науке и образованию и объяснять научные концепции.",
+            "uz": "“Oriental Renaissance: Innovative, educational, natural and social sciences” ilmiy jurnali ochiq jurnal hisoblanadi. Mazkur jurnalning asosiy vazifasi “Uchinchi renessans” modellashuvi jarayonida Jahon fani va ta'limining yutuqlari va istiqbollarini, dolzarb muammolari va ularning yechimlarini, shuningdek, ilm-fan va ta'limning tarixi va rivojlanish bosqichlarini yoritib berishdir. Shuningdek, “Oriental Renaissance: Innovative, educational, natural and social sciences” ilmiy jurnalining maqsadi ilmiy jamoatchilikni belgilangan sohalardagi mutaxassislar va olimlarning tadqiqotlari va innovatsiyalari to'g'risida xabardor qilish, yosh avlodning fan va ta'limga qiziqishini yanada oshirish va ilmiy konsepsiyalarni bayon etishdir."
+        },
+        "url": "https://oriens.uz",
+        "image": "src/uploads/projects/oriens.png",
+        "client": "\"ORIENTAL RENESSANS\" LLC",
+        "date": "15-08-2021",
+        "types": [
+            "Web",
+            "Telegram bot"
+        ]
+    },
+    {
+        "name": {
+            "en": "Geoportal of ",
+            "ru": "Геопортал Министерства сельского хозяйства",
+            "uz": "Qishloq xo'jaligi vazirligi geoportali"
+        },
+        "description": {
+            "en": "Geoportal of the Ministry of Agriculture - an open source of information on the Internet, designed to search and describe all spatial information related to agricultural land",
+            "ru": "Геопортал Министерства сельского хозяйства - открытый источник информации в сети Интернет, предназначенный для поиска и описания всей пространственной информации, относящейся к землям сельскохозяйственного назначения.",
+            "uz": "Qishloq xo'jaligi vazirligi geoportali - Qishloq xo'jaligi yerlari bilan bog'liq barcha fazoviy ma'lumotlarni izlash va tasvirlashga mo'ljallangan internet tarmog'ida ochiq foydalanishda taqdim etiladigan ma'lumotlar manbai"
+        },
+        "url": "https://gis.agro.uz/portal/apps/opsdashboard/index.html#/5de1c90e295540e784a31ddad2c62e5b",
+        "image": "src/uploads/projects/geoportal.png",
+        "client": "Ministry of Agriculture",
+        "date": "01-12-2021",
+        "types": [
+            "Web",
+            "GIS"
+        ]
+    },
+    {
+        "name": {
+            "en": "Biruni Journal",
+            "ru": "Biruni Journal",
+            "uz": "Biruni Journal"
+        },
+        "description": {
+            "en": "The scientific journal “Biruni” is an open journal. The aim of “Biruni” is to inform the scientific community about the research and innovation of experts and scientists in specific fields, to increase the interest of the younger generation in science and education, and to explain scientific concepts.",
+            "ru": "Научный журнал “Biruni” является открытым журналом. Целью журнала “Biruni” является информирование научного сообщества об исследованиях и инновациях экспертов и ученых в конкретных областях, повышение интереса молодого поколения к науке и образованию и объяснять научные концепции.",
+            "uz": "“Biruni” ilmiy jurnali ochiq jurnal hisoblanadi. Shuningdek, “Biruni” ilmiy jurnalining maqsadi ilmiy jamoatchilikni belgilangan sohalardagi mutaxassislar va olimlarning tadqiqotlari va innovatsiyalari to'g'risida xabardor qilish, yosh avlodning fan va ta'limga qiziqishini yanada oshirish va ilmiy konsepsiyalarni bayon etishdir."
+        },
+        "url": "https://birunijournal.uz",
+        "image": "src/uploads/projects/birunijournal.png",
+        "client": "\"ORIENTAL RENESSANS\" LLC",
+        "date": "24-01-2023",
+        "types": [
+            "Web",
+            "Telegram bot"
+        ]
+    },
+    {
+        "name": {
+            "en": "Media Club",
+            "ru": "Media Club",
+            "uz": "Media Club"
+        },
+        "description": {
+            "en": "On this platform, you will learn the secrets of fast journalism, writing, creative director, production, hosting, as well as the secrets of organizing and implementing new projects, as well as the secrets of cameramanship and editing from the professional creators of the media industry.",
+            "ru": "На этой платформе вы узнаете секреты быстрой журналистики, писательства, креативного директора, производства, хостинга, а также секреты организации и реализации новых проектов, а также секреты кинематографии и монтажа от профессиональных создателей медиаиндустрии.",
+            "uz": "Siz ushbu platforma orqali media sohasining professional ijodkorlaridan tezkor jurnalistika, mohr suxandon, kreativ rejissyor, prodyusserlik, boshlovchilik sirlari qolaversa, yangi loyihalarni tashkil etish va amalga oshirish, shuningdek operatorlik va montaj sirlarini o'rganasiz."
+        },
+        "url": "https://mediaclub.uz",
+        "image": "src/uploads/projects/mediaclub.png",
+        "client": "\"UMAROV ENERGY PRODUCTIONS\" LLC",
+        "date": "27-04-2023",
+        "types": [
+            "Web"
+        ]
+    },
+    {
+        "name": {
+            "en": "Tourflow",
+            "ru": "Tourflow",
+            "uz": "Tourflow"
+        },
+        "description": {
+            "en": "Tourflow is a comparison platform for tours, activities, tickets & attractions. You can compare prices of tours from dozens of booking websites. 1 place where you can explore the large variety of offerings, coming from top booking platforms.",
+            "ru": "Tourflow — это платформа для сравнения туров, мероприятий, билетов и достопримечательностей. Вы можете сравнить цены на туры с десятков сайтов бронирования. 1 место, где вы можете ознакомиться с большим разнообразием предложений от ведущих платформ бронирования.",
+            "uz": "Tourflow - bu sayohatlar, tadbirlar, chiptalar va diqqatga sazovor joylarni taqqoslash platformasi. Siz o'nlab bronlash veb-saytlarida turlar narxlarini solishtirishingiz mumkin. 1 ta eng yaxshi bronlash platformalaridan keladigan turli xil takliflarni o'rganishingiz mumkin boʻlgan joy."
+        },
+        "url": "https://tourflow.co",
+        "image": "src/uploads/projects/tourflow.png",
+        "client": "Tourflow LLC",
+        "date": "04-08-2023",
+        "types": [
+            "Web"
+        ]
+    }
+]

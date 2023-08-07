@@ -1,0 +1,119 @@
+[
+    {
+        "name": {
+            "en": "Web development",
+            "ru": "Веб-разработка",
+            "uz": "Veb dasturlash"
+        },
+        "description": {
+            "en": "Building websites, platforms, information systems",
+            "ru": "Создание сайтов, платформ, информационных систем",
+            "uz": "Veb-saytlar, platformalar, axborot tizimlarini ishlab chiqish"
+        },
+        "icon": "bx-code"
+    },
+    {
+        "name": {
+            "en": "Mobile development",
+            "ru": "Мобильная разработка",
+            "uz": "Mobil dasturlash"
+        },
+        "description": {
+            "en": "Building mobile applications",
+            "ru": "Разработка мобильных приложений",
+            "uz": "Mobil ilovalar ishlab chiqish"
+        },
+        "icon": "bx-mobile"
+    },
+    {
+        "name": {
+            "en": "Database architecture",
+            "ru": "Архитектура базы данных",
+            "uz": "Ma'lumotlar bazasi arxitekturasi"
+        },
+        "description": {
+            "en": "Building database architecture for any information system",
+            "ru": "Построение архитектуры базы данных для любой информационной системы",
+            "uz": "Har qanday axborot tizimi uchun ma'lumotlar bazasi arxitekturasini ishlab chiqish"
+        },
+        "icon": "bxs-data"
+    },
+    {
+        "name": {
+            "en": "Automation with Microsoft Excel",
+            "ru": "Автоматизация с Microsoft Excel",
+            "uz": "Microsoft Excel yordamida avtomatlashtirish"
+        },
+        "description": {
+            "en": "Automating the processes based on the Microsoft Excel",
+            "ru": "Автоматизация процессов на базе Microsoft Excel",
+            "uz": "Microsoft Excel asosida jarayonlarni avtomatlashtirish"
+        },
+        "icon": "bx-table"
+    },
+    {
+        "name": {
+            "en": "Technical documentation",
+            "ru": "Техническая документация",
+            "uz": "Texnik hujjatlar"
+        },
+        "description": {
+            "en": "Writing technical documentation for any information system (including technical requirements, technical task, code documentation, API documentation, etc)",
+            "ru": "Написание технической документации для любой информационной системы (включая технические требования, техническое задание, документацию по коду, документацию по API и т.д.)",
+            "uz": "Har qanday axborot tizimi uchun texnik hujjatlar yozish (shu jumladan texnik talablar, texnik vazifalar, kod yo'riqnomasi, API yo'riqnomasi va xokazo)."
+        },
+        "icon": "bx-file"
+    },
+    {
+        "name": {
+            "en": "GIS",
+            "ru": "ГИС",
+            "uz": "GAT"
+        },
+        "description": {
+            "en": "Setting up minimal GIS environment for the organization or the business",
+            "ru": "Настройка минимальной среды ГИС для организации или бизнеса",
+            "uz": "Tashkilot yoki biznes uchun minimal GIS muhitini o'rnatish"
+        },
+        "icon": "bx-world"
+    },
+    {
+        "name": {
+            "en": "Telegram bot",
+            "ru": "Телеграм бот",
+            "uz": "Telegram bot"
+        },
+        "description": {
+            "en": "Developing a Telegram bot in any complexity",
+            "ru": "Разработка Telegram бота любой сложности",
+            "uz": "Har qanday murakkablikdagi Telegram botlar ishlab chiqish"
+        },
+        "icon": "bxl-telegram"
+    },
+    {
+        "name": {
+            "en": "CRM",
+            "ru": "CRM",
+            "uz": "CRM"
+        },
+        "description": {
+            "en": "Developing a CRM for the organization",
+            "ru": "Разработка CRM для организации",
+            "uz": "Tashkilot uchun CRM ni ishlab chiqish"
+        },
+        "icon": "bxs-business"
+    },
+    {
+        "name": {
+            "en": "LMS",
+            "ru": "LMS",
+            "uz": "LMS"
+        },
+        "description": {
+            "en": "Developing a LMS for education centres",
+            "ru": "Разработка LMS для учебных центров",
+            "uz": "O'quv markazlari uchun LMS ni ishlab chiqish"
+        },
+        "icon": "bxs-school"
+    }
+]

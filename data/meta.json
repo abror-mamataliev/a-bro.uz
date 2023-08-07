@@ -1,0 +1,23 @@
+{
+    "header": {
+        "en": "I'm a passionate <span>software engineer</span> from Tashkent",
+        "ru": "<span>Инженер-программист</span> из Ташкента",
+        "uz": "Toshkentlik <span>dasturiy ta'minot muhandisi</span>"
+    },
+    "title": {
+        "en": "Software Engineer & GIS Developer",
+        "ru": "Инженер-программист & ГИС разработчик",
+        "uz": "Dasturiy ta'minot muhandisi & GIS dasturchi"
+    },
+    "description": {
+        "en": "Knowledgeable software engineer, beginner GIS developer, experienced tutor of maths, physics and programming",
+        "ru": "Знающий инженер-программист, начинающий ГИС-разработчик, опытный репетитор по математике, физике и программированию",
+        "uz": "Bilimli dasturiy ta'minot muhandisi, boshlovchi GIS dasturchi, matematika, fizika va dasturlash bo'yicha tajribali o'qituvchi"
+    },
+    "about": {
+        "en": "<p>Knowledgeable software engineer offering 4 years leading cross-functional teams and completing projects on-time. Able to seamlessly manage workloads and meet challenging deadlines. Ready to solve critical issues and suggest own solutions.</p><p>Beginner GIS developer who can set up minimal GIS environment (including web, desktop and mobile) for organizations. Able to support existing not complex GIS systems and environments.</p><p>Experienced tutor of maths, physics and programming who adept at working with undergraduate students in social work to impart knowledge of principles and practises of field. Capable of delivering knowledgeable lectures, facilitating discussions and assessing student grasp of material. Advanced skills in maths, physics and programming.</p>",
+        "ru": "<p>Знающий инженер-программист, который в течение 4 лет руководил межфункциональными командами и своевременно завершал проекты. Способность легко управлять рабочими нагрузками и укладываться в жесткие сроки. Готов решать критические проблемы и предлагать собственные решения.</p><p>Начинающий ГИС-разработчик, который может настроить минимальную ГИС-среду (включая веб, настольную и мобильную) для организаций. Способен поддерживать существующие несложные ГИС-системы и среды.</p><p>Опытный репетитор по математике, физике и программированию, умеющий работать со студентами бакалавриата в области социальной работы, чтобы делиться знаниями о принципах и методах работы в данной области. Способен читать лекции со знанием дела, вести дискуссии и оценивать усвоение материала студентами. Продвинутые навыки в области математики, физики и программирования.</p>",
+        "uz": "<p>Bilimli dasturiy ta'minot muhandisi 4 yillik etakchi o'zaro faoliyat guruhlarini taklif qiladi va loyihalarni o'z vaqtida yakunlaydi. Ish yuklarini muammosiz boshqarish va qiyin muddatlarni qondirish. Muhim muammolarni hal qilishga va o'z yechimlarini taklif qilishga tayyor.</p><p>Tashkilotlar uchun minimal GIS muhitini (jumladan, veb, ish stoli va mobil) o'rnatishi mumkin bo'lgan boshlang'ich GIS dasturchisi. Mavjud murakkab bo'lmagan GIS tizimlari va muhitlarini qo'llab-quvvatlashga qodir.</p><p>Matematika, fizika va dasturlash bo'yicha tajribali o'qituvchi, ijtimoiy ish bo'yicha bakalavriat talabalari bilan soha tamoyillari va amaliyotlari bo'yicha bilimlarni berish uchun mo'ljallangan. Bilimli ma'ruzalarni o'tkazish, munozaralarni osonlashtirish va talabalarning materialni tushunishini baholashga qodir. Matematika, fizika va dasturlash boʻyicha ilgʻor koʻnikmalar.</p>"
+    },
+    "birthday": "2002-04-26"
+}

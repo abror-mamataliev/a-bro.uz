@@ -1,4 +1,8 @@
 from decouple import config
+from os.path import (
+    dirname,
+    join
+)
 
 
 class Config:
@@ -9,6 +13,8 @@ class Config:
     PORT = config('PORT', cast=int, default=5000)
 
     SQLALCHEMY_DATABASE_URI = config('SQLALCHEMY_DATABASE_URI')
+
+    UPLOADS_FOLDER = join(dirname(dirname(__file__)), config('UPLOADS_FOLDER'))
 
 
 class DevConfig(Config):

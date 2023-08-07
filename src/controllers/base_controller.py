@@ -51,6 +51,15 @@ class BaseController:
             **data
         )
 
+    def project(self, id: int):
+        project = self.base_service.get_project(id)
+        project_types = self.base_service.get_project_types_by_id(id)
+        return render_template(
+            "pages/project-detail.html",
+            project=project,
+            project_types=project_types
+        )
+
     def contact(self):
         data = self.base_service.get_data()
         return render_template(

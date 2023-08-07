@@ -5,7 +5,9 @@ from src.routes import *
 from src.utils.extensions import db
 from src.utils.handlers import (
     init_db,
-    register_extensions
+    register_default_routes,
+    register_extensions,
+    register_template_filters
 )
 
 
@@ -14,8 +16,11 @@ def create_app(state: str = "prod") -> Flask:
     app.config.from_object(f"src.config.{state.capitalize()}Config")
 
     register_extensions(app)
+    register_template_filters(app)
+    register_default_routes(app)
 
     app.register_blueprint(base_router)
+    app.register_blueprint(api_router, url_prefix="/api")
 
     with app.app_context():
         db.create_all()

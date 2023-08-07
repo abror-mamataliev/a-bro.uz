@@ -1,0 +1,188 @@
+[
+    {
+        "title": {
+            "en": "Student",
+            "ru": "Ученик",
+            "uz": "Maktab o'quvchisi"
+        },
+        "type": "EDUCATION",
+        "place": {
+            "en": "School №51 in Tashkent",
+            "ru": "Школа №51 в Ташкенте",
+            "uz": "Toshkentdagi 51-sonli maktab"
+        },
+        "start_date": "2008-09-02",
+        "end_date": "2019-06-21"
+    },
+    {
+        "title": {
+            "en": "Bachelor of Telecommunication technologies",
+            "ru": "Бакалавриат в направлении \"Телекоммуникационные технологии\"",
+            "uz": "Telekommunikatsiya texnologiyalari yo'nalishida bakalavriat"
+        },
+        "type": "EDUCATION",
+        "place": {
+            "en": "Tashkent University of Information Technologies",
+            "ru": "Ташкентский университет информационных технологий",
+            "uz": "Toshkent axborot texnologiyalari universiteti"
+        },
+        "start_date": "2019-09-02",
+        "end_date": "2023-06-27"
+    },
+    {
+        "title": {
+            "en": "Master of Geographic Information Systems & Technologies",
+            "ru": "Магистратура в направлении \"Геоинформационные системы и технологии\"",
+            "uz": "Geoaxborot tizimlari va texnologiyalari yo'nalishida magistratura"
+        },
+        "type": "EDUCATION",
+        "place": {
+            "en": "Tashkent University of Information Technologies",
+            "ru": "Ташкентский университет информационных технологий",
+            "uz": "Toshkent axborot texnologiyalari universiteti"
+        },
+        "start_date": "2023-10-02"
+    },
+    {
+        "title": {
+            "en": "Tutor of mathematics, physics and programming",
+            "ru": "Репетитор по математике, физике и программированию",
+            "uz": "Matematika, fizika va dasturlash bo'yicha repetitor"
+        },
+        "type": "PROFESSION",
+        "place": {
+            "en": "Elite School Enterprise",
+            "ru": "Elite School Enterprise",
+            "uz": "Elite School Enterprise"
+        },
+        "start_date": "2019-10-22",
+        "end_date": "2021-08-01",
+        "info": {
+            "en": [
+                "Established positive relationships with students, parents, fellow teachers, and school administrators.",
+                "Planned and implemented lessons utilising variety of teaching strategies to meet diverse student needs.",
+                "Collaborated with other staff members to plan and schedule lessons promoting learning and student engagement.",
+                "Monitored student progress through classwork, coursework, and project marking, providing constructive feedback and extra support to underperforming students.",
+                "Created wide range of teaching material to assist student learning, including presentations, visual aids, and worksheets.",
+                "Instilled confidence in students through positive feedback.",
+                "Used effective teaching methods to assist with student development, including collaborative learning, positive reinforcement, modelling and explicit instruction.",
+                "Interacted with children and promoted good behaviour through positive reinforcement methods.",
+                "Maintained trusting student relationships by providing both educational and emotional support to students when required."
+            ],
+            "ru": [
+                "Established positive relationships with students, parents, fellow teachers, and school administrators.",
+                "Planned and implemented lessons utilising variety of teaching strategies to meet diverse student needs.",
+                "Collaborated with other staff members to plan and schedule lessons promoting learning and student engagement.",
+                "Monitored student progress through classwork, coursework, and project marking, providing constructive feedback and extra support to underperforming students.",
+                "Created wide range of teaching material to assist student learning, including presentations, visual aids, and worksheets.",
+                "Instilled confidence in students through positive feedback.",
+                "Used effective teaching methods to assist with student development, including collaborative learning, positive reinforcement, modelling and explicit instruction.",
+                "Interacted with children and promoted good behaviour through positive reinforcement methods.",
+                "Maintained trusting student relationships by providing both educational and emotional support to students when required."
+            ],
+            "uz": [
+                "Established positive relationships with students, parents, fellow teachers, and school administrators.",
+                "Planned and implemented lessons utilising variety of teaching strategies to meet diverse student needs.",
+                "Collaborated with other staff members to plan and schedule lessons promoting learning and student engagement.",
+                "Monitored student progress through classwork, coursework, and project marking, providing constructive feedback and extra support to underperforming students.",
+                "Created wide range of teaching material to assist student learning, including presentations, visual aids, and worksheets.",
+                "Instilled confidence in students through positive feedback.",
+                "Used effective teaching methods to assist with student development, including collaborative learning, positive reinforcement, modelling and explicit instruction.",
+                "Interacted with children and promoted good behaviour through positive reinforcement methods.",
+                "Maintained trusting student relationships by providing both educational and emotional support to students when required."
+            ]
+        }
+    },
+    {
+        "title": {
+            "en": "Chief Technology Officer",
+            "ru": "Главный технический директор",
+            "uz": "Bosh texnik direktor"
+        },
+        "type": "PROFESSION",
+        "place": {
+            "en": "BlurCode LLC",
+            "ru": "BlurCode LLC",
+            "uz": "BlurCode LLC"
+        },
+        "start_date": "2021-02-14",
+        "info": {
+            "en": [
+                "Managing the activity of the agency",
+                "Coming up with new technologies and solutions and confirming it with CEO",
+                "Estimating the time needed for the development phase of the project and the price of the development",
+                "Engaging the suitable developers for the development phase of the project",
+                "Leading the developers during the development phase of the project"
+            ],
+            "ru": [
+                "Managing the activity of the agency",
+                "Coming up with new technologies and solutions and confirming it with CEO",
+                "Estimating the time needed for the development phase of the project and the price of the development",
+                "Engaging the suitable developers for the development phase of the project",
+                "Leading the developers during the development phase of the project"
+            ],
+            "uz": [
+                "Managing the activity of the agency",
+                "Coming up with new technologies and solutions and confirming it with CEO",
+                "Estimating the time needed for the development phase of the project and the price of the development",
+                "Engaging the suitable developers for the development phase of the project",
+                "Leading the developers during the development phase of the project"
+            ]
+        }
+    },
+    {
+        "title": {
+            "en": "GIS Developer",
+            "ru": "ГИС-разработчик",
+            "uz": "Geoaxborot tizimlari bo'yicha dasturchi"
+        },
+        "type": "PROFESSION",
+        "place": {
+            "en": "Center for Digitalization of Agroindustry",
+            "ru": "Центр цифровизации агроиндустрии",
+            "uz": "\"Agrosanoatni raqamlashtirish markazi\" davlat muassasasi"
+        },
+        "start_date": "2021-11-15",
+        "info": {
+            "en": [
+                "Maintaining the geoportal of Uzbekistan.",
+                "Presenting the geoportal to other people and countries",
+                "Conducting the conversations and exchanging experience with foreign specialists.",
+                "Leading the developers in the department of GIS",
+                "Consulting the developers who work on other projects which include the basic GIS",
+                "Created unified database architecture of administrative boundaries (regions, districts).",
+                "Developed the GIS system for planning crop planting.",
+                "Automated the generation of the Excel sheets for storing calculated data and preparing reports.",
+                "Participating and leading the development of an analogue of the Field Worker program.",
+                "Participating in the analysis of the country's lands for assessment of their productivity.",
+                "Participating in the development of AI model for identifying planted crops."
+            ],
+            "ru": [
+                "Maintaining the geoportal of Uzbekistan.",
+                "Presenting the geoportal to other people and countries",
+                "Conducting the conversations and exchanging experience with foreign specialists.",
+                "Leading the developers in the department of GIS",
+                "Consulting the developers who work on other projects which include the basic GIS",
+                "Created unified database architecture of administrative boundaries (regions, districts).",
+                "Developed the GIS system for planning crop planting.",
+                "Automated the generation of the Excel sheets for storing calculated data and preparing reports.",
+                "Participating and leading the development of an analogue of the Field Worker program.",
+                "Participating in the analysis of the country's lands for assessment of their productivity.",
+                "Participating in the development of AI model for identifying planted crops."
+            ],
+            "uz": [
+                "Maintaining the geoportal of Uzbekistan.",
+                "Presenting the geoportal to other people and countries",
+                "Conducting the conversations and exchanging experience with foreign specialists.",
+                "Leading the developers in the department of GIS",
+                "Consulting the developers who work on other projects which include the basic GIS",
+                "Created unified database architecture of administrative boundaries (regions, districts).",
+                "Developed the GIS system for planning crop planting.",
+                "Automated the generation of the Excel sheets for storing calculated data and preparing reports.",
+                "Participating and leading the development of an analogue of the Field Worker program.",
+                "Participating in the analysis of the country's lands for assessment of their productivity.",
+                "Participating in the development of AI model for identifying planted crops."
+            ]
+        }
+    }
+]
